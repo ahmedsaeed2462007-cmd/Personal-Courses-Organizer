@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Courses Organizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="media/E-Learning.png" height="20px" width="20px" alt="E-learning logo">
+        <p>Academic courses organizer</p>
+    </header>
+
+    <nav>
+        <a href="home.html" target="_self"><button>Home</button></a>
+        <a href="my_courses.html" target="_self"><button>My Courses</button></a>
+        <a href="add_courses.html" target="_self"><button>Add Courses</button></a>
+        <a href="contact_us.html" target="_self"><button>Contact Us</button></a>
+    </nav>
+
+    <main class="contactus">
+        <video autoplay muted loop>
+            <source src="media/courses.mp4" type="video/mp4">
+        </video>
+        <form method="post" autocomplete="on">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" value="" required>
+
+                <label for="number">Phone number</label>
+                <input type="tel" id="number" name="number" value="" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" value="" required>
+                
+                <label for="message">Message</label>
+                <textarea id="message" rows="15" cols="75" name="message" value="" required></textarea>
+
+                <input type="submit">
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <h3>About Us</h3>
+        <p>Academic Courses Organizer is a personal web-based tool designed to help students<br/>
+            manage and organize their academic courses efficiently.<br/>
+            It provides a clear overview of registered courses, scheduling details, and assignment tracking,<br/>
+            all in one place.
+        </p>
+        <h3>important links</h3>
+        <table>
+            <tr>
+                <td>Whatsapp</td>
+                <td>+205557779991</td>
+            </tr>
+            <tr>
+                <td>Mail</td>
+                <td>e.learning.fcaihu@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td><a href="https://www.facebook.com/share/1CmjM7AUiU/">E-Learning</a></td>
+            </tr>
+            <tr>
+                <td>Instagram</td>
+                <td><a href="https://www.instagram.com/e.learning.fcaihu/">E-Learning</a></td>
+            </tr>
+        </table>
+        <h3>Developer</h3>
+        <p>Ahmed Saeed</p>
+        <img src="media/E-Learning.png" width="500px" height="500px" alt="E-Learning logo">
+    </footer>
+    
+</body>
+</html>
