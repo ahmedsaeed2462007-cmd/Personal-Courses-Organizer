@@ -565,6 +565,10 @@ footer img {
         margin-left: 5px;
         margin-right: 5px;
     }
+    .home .intro p, h4 {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
     .stats .container {
         flex-direction: column;
     }
@@ -573,9 +577,11 @@ footer img {
     }
     .courses {
         flex-direction: column;
+        flex-wrap: wrap;
         align-items: center;
     }
     .courses .subject {
+        flex: 1 1 300px;
         width: 90%;
         height: auto;
         padding: 10px;
