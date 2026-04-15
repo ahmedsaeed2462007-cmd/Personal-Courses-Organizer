@@ -578,9 +578,6 @@ footer img {
         width: 200px;
         height: 200px;
     }
-    .courses {
-        align-items: center;
-    }
     .courses .courses-container {
         flex-direction: column;
         align-items: center;
