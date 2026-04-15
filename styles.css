@@ -581,7 +581,7 @@ footer img {
     .courses .courses-container {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 35px;
     }
     .courses .courses-container .subject {
         width: 85%;
