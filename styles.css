@@ -557,56 +557,55 @@ footer img {
 
 @media (max-width: 768px) {
     header p {
-        left: 50%;
-        font-size: 14px;
+        left: 45%;
+        font-size: 13px;
     }
     nav button {
-        font-size: 15px;
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .home .intro p, h4 {
-        margin-bottom: 10px;
-        font-size: 15px;
+        font-size: 13px;
+        margin-left: 3px;
+        margin-right: 3px;
     }
     .stats .container {
         flex-direction: column;
+        align-items: center;
     }
     .stats .container section {
         margin: 15px;
+        width: 160px;
+        height: 160px;
     }
-    .courses {
+    .courses .courses-container {
         flex-direction: column;
-        flex-wrap: wrap;
         align-items: center;
     }
-    .courses .subject {
-        flex: 1 1 300px;
-        width: 90%;
+    .courses .courses-container .subject {
+        width: 85%;
         height: auto;
         padding: 10px;
+        margin: 10px 0px;
     }
-    .courses .subject img.hero {
+    .courses .courses-container .subject img.hero {
         width: 100%;
         height: auto;
     }
-    .mycourses > section > table {
+    .mycourses section table {
         width: 95%;
     }
     .mycourses table img {
-        width: 150px;
-        height: 200px;
+        width: 120px;
+        height: 170px;
     }
-    .addcourse,
-    .contactus {
+    .mycourses table p {
+        font-size: 14px;
+    }
+    .addcourse, .contactus {
         padding: 15px;
     }
-    .addcourse form,
-    .contactus form {
+    .addcourse form, .contactus form {
         width: 100%;
     }
     footer {
-        padding-bottom: 220px;
+        padding-bottom: 30px;
     }
     footer img {
         position: relative;
@@ -614,7 +613,7 @@ footer img {
         left: auto;
         display: block;
         margin: 20px auto 0 auto;
-        width: 150px;
-        height: 150px;
+        width: 130px;
+        height: 130px;
     }
 }
